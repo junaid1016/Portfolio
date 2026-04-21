@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="Resume - Junaid Ansari.pdf" target="_blank" class="resume-download">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Junaid <br>Ansari</h1>
+            <p class="hero-subtitle">Software Developer</p>
+            <p class="hero-description">
+                Crafting elegant solutions to complex problems. Specialized in building
+                scalable applications with modern technologies and clean architecture.
+            </p>
+        </div>
+
+        <div class="hero-train">
+            <svg class="train-scene" viewBox="0 0 440 100" preserveAspectRatio="xMidYMid meet">
+                <!-- Track -->
+                <rect class="train-track" x="0" y="70" width="440" height="3" rx="1.5" />
+
+                <!-- Train group (animated) -->
+                <g class="train">
+                    <!-- Coach 1 (engine coach) -->
+                    <rect class="train-body" x="0" y="35" width="80" height="26" rx="4" />
+                    <rect class="train-engine" x="60" y="28" width="24" height="20" rx="4" />
+                    <rect class="train-window" x="8" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="28" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="48" y="40" width="16" height="10" rx="2" />
+                    <circle class="train-wheel" cx="16" cy="65" r="4" />
+                    <circle class="train-wheel" cx="40" cy="65" r="4" />
+                    <circle class="train-wheel" cx="64" cy="65" r="4" />
+
+                    <!-- Coach 2 -->
+                    <rect class="train-body" x="90" y="35" width="80" height="26" rx="4" />
+                    <rect class="train-window" x="98" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="118" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="138" y="40" width="16" height="10" rx="2" />
+                    <circle class="train-wheel" cx="106" cy="65" r="4" />
+                    <circle class="train-wheel" cx="130" cy="65" r="4" />
+                    <circle class="train-wheel" cx="154" cy="65" r="4" />
+
+                    <!-- Coach 3 -->
+                    <rect class="train-body" x="180" y="35" width="80" height="26" rx="4" />
+                    <rect class="train-window" x="188" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="208" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="228" y="40" width="16" height="10" rx="2" />
+                    <circle class="train-wheel" cx="196" cy="65" r="4" />
+                    <circle class="train-wheel" cx="220" cy="65" r="4" />
+                    <circle class="train-wheel" cx="244" cy="65" r="4" />
+
+                    <!-- Coach 4 -->
+                    <rect class="train-body" x="270" y="35" width="80" height="26" rx="4" />
+                    <rect class="train-window" x="278" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="298" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="318" y="40" width="16" height="10" rx="2" />
+                    <circle class="train-wheel" cx="286" cy="65" r="4" />
+                    <circle class="train-wheel" cx="310" cy="65" r="4" />
+                    <circle class="train-wheel" cx="334" cy="65" r="4" />
+
+                    <!-- Coach 5 -->
+                    <rect class="train-body" x="360" y="35" width="80" height="26" rx="4" />
+                    <rect class="train-window" x="368" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="388" y="40" width="16" height="10" rx="2" />
+                    <rect class="train-window" x="408" y="40" width="16" height="10" rx="2" />
+                    <circle class="train-wheel" cx="376" cy="65" r="4" />
+                    <circle class="train-wheel" cx="400" cy="65" r="4" />
+                    <circle class="train-wheel" cx="424" cy="65" r="4" />
+                </g>
+            </svg>
+
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work">
+        <span class="section-number">01</span>
+        <h2 class="section-title">Selected Work</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-number">Project 01</div>
+                <h3 class="project-title">University Grievance Management Portal</h3>
+                <p class="project-description">
+                    Engineered a full-stack web platform enabling students to submit, track, and resolve academic
+                    complaints through a structured, centralized interface.
+
+                    Implemented JWT-based authentication and role-based access control (RBAC) with separate permission
+                    layers for students and administrative staff.
+
+                </p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Express.js</span>
+                </div>
+                <a href="https://github.com/junaid1016/student-complaint-management-system" class="project-link">View
+                    Project</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">Project 02</div>
+                <h3 class="project-title">AI Content Generator</h3>
+                <p class="project-description">
+                    Machine learning powered content generation tool with natural language
+                    processing and customizable output parameters.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">Redis</span>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">Project 03</div>
+                <h3 class="project-title">Night Vision Image Upscaler</h3>
+                <p class="project-description">
+                    Built an image processing pipeline to enhance visibility in low-light and night-vision photographs
+                    using Python and
+                    OpenCV.
+                    
+                    Applied Gaussian and Median filtering techniques to suppress sensor noise while preserving
+                    structural detail in
+                    dark-environment imagery.
+                    
+                    Implemented CLAHE (Contrast Limited Adaptive Histogram Equalization) to improve local contrast,
+                    significantly
+                    boosting perceptual image quality.
+
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python3</span>
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">NumPy</span>
+                    <!-- <span class="tag"></span> -->
+                </div>
+                <a href="http://github.com/Chhetri24/low-light-enhancement" class="project-link">View Project</a>
+            </div>
+
+            <!-- extra project -->
+
+            <!-- <div class="project-card"> 
+                <div class="project-number">Project 04</div>
+                <h3 class="project-title">Analytics Dashboard</h3>
+                <p class="project-description">
+                    Comprehensive data visualization dashboard with custom charts,
+                    filters, and exportable reports for business intelligence.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">D3.js</span>
+                    <span class="tag">GraphQL</span>
+                    <span class="tag">AWS</span>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <span class="section-number">02</span>
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I'm a full-stack developer with a passion for creating elegant,
+                    efficient solutions. With over 2 years of experience, I specialize
+                    in building scalable web applications that prioritize both user
+                    experience and code quality.
+                </p>
+                <p>
+                    My approach combines technical expertise with creative problem-solving,
+                    ensuring that every project not only meets requirements but exceeds
+                    expectations. I believe in writing clean, maintainable code and
+                    staying current with emerging technologies.
+                </p>
+            </div>
+            <div class="skills-list">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>TypeScript</li>
+                        <li>Next.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Eclipse</li>
+                        <li>Android Studio</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p class="about-text">
+                I'm always interested in hearing about new projects and opportunities.
+                Whether you have a question or just want to say hello, feel free to reach out.
+            </p>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <h3>Email</h3>
+                    <a href="mailto:info.junaidansari@gmail.com">info.junaidansari@gmail.com</a>
+                </div>
+                <div class="contact-method">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/junaid-ansari2/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-method">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/junaid1016" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
